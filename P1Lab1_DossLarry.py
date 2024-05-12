@@ -1,24 +1,16 @@
-
 """
-Larry_Doss
-2/18/24
+Larry Doss
+3/4/24
 P1Lab1
-Write code in IDLE
+welcome message
 """
 
+def main():
+    # Ask the user for their first name
+    first_name = input("Enter your first name: ")
 
+    # Display the welcome message
+    print(f"Hello {first_name} and welcome to Python!")
 
-
-
-
-
-first_name = input("Larry: ")
-
-
-print(f"Hello, {first_name}! Welcome to Python.")
-
-
-
-
-
-
+if __name__ == "__main__":
+    main()
